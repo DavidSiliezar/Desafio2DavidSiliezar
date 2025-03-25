@@ -1,0 +1,147 @@
+header{
+    background-color: rgb(167, 2, 2);
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+    
+    }
+    header{
+        font-size: 30px;
+        border-radius: 10px;
+    }
+    header img{
+        width: 220px;
+        border-radius: 25px;
+        
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+    }
+    nav a:hover{
+        text-decoration: underline;
+    }
+    main{
+        background-color:#AB1B4D ;
+        border-radius: 25px;
+    
+    }
+    main h1{
+        text-align: center;
+        color: white;
+    }
+    nav li{
+        display: inline;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .card{
+        margin: 20px;
+        width: 350px;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0px 5px 15px #000000;
+    }
+    .card img{
+        width: 100%;
+    }
+    .card h1{
+        text-align: center;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+    
+    }
+    .card h2{
+        font-size: 25px;
+    }
+    .cardcontent{
+        padding: 10px;
+    }
+    .madre{
+        display: flex;
+       justify-content: space-around;
+       
+    }
+    .producto{
+        margin: 20px;
+        width: 375px;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0px 10px 20px #000000;
+        font-family: Arial, Helvetica, sans-serif;
+       
+        
+    }
+    .producto img{
+        width: 100%;
+    }
+    .producto h1{
+        text-align: center;
+        font-size: 20px;
+        color: beige;
+    
+    }
+    .producto h2{
+        font-size: 20px;
+    
+    }
+    .productoVendido{
+        padding: 10px;
+    }
+    
+    .textovendido{
+    font-size: 25px;
+    }
+    .tarjeta{
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+    }
+    .shadow{
+        box-shadow: 5px 10px 20px #000000;
+        background-color: #891010;
+        border-radius: 25px;
+        padding: 25px;
+        margin: 25px;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .buttonredirection{
+        background-color: green;
+        text-decoration: none;
+        text-decoration: underline;
+        color: white;
+        font-size: 25px;
+        border-radius: 20px;
+        box-shadow: 0px 2px 15px 3px;
+        background-color: #000000;
+        color: #ffffff;
+        border-bottom: white;
+        font-family: 'Times New Roman', Times, serif;
+        height: 50px;
+    }
+    footer ul{
+        font-size: 20px;
+        color: #000000;
+        display: flex;
+        justify-content: space-around;
+    }
+    footer{
+        padding: 20px;
+        background-color: rgb(202, 185, 185);
+    }
+    .card:hover{
+        transform: scale(1.05);
+        box-shadow: 0px 5px 8px black;
+    }
