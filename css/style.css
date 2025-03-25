@@ -71,6 +71,7 @@ body{
     overflow: hidden;
     box-shadow: 0px 10px 20px #000000;
     font-family: Arial, Helvetica, sans-serif;
+   
     
 }
 .producto img{
@@ -113,4 +114,18 @@ body{
     display: flex;
     justify-content: space-around;
 
+}
+.buttonredirection{
+    background-color: green;
+    text-decoration: none;
+    text-decoration: underline;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 15px 3px;
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: white;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
 }
